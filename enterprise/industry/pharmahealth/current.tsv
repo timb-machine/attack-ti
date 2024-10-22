@@ -1,0 +1,107 @@
+threat-crank.py 0.2.1
+I: searching for industries that match .* pharma.*|.* health.*
+I: using https://raw.githubusercontent.com/mitre/cti/ATT&CK-v1.0/enterprise-attack/enterprise-attack.json
+Deep Panda;execution
+execution;T1086
+Deep Panda;execution
+execution;T1047
+Deep Panda;persistence
+persistence;T1100
+Deep Panda;privilege-escalation
+privilege-escalation;T1100
+Deep Panda;lateral-movement
+lateral-movement;T1077
+Deep Panda;discovery
+discovery;T1057
+Deep Panda;defense-evasion
+defense-evasion;T1064
+Deep Panda;execution
+execution;T1064
+Deep Panda;defense-evasion
+defense-evasion;T1066
+Deep Panda;defense-evasion
+defense-evasion;T1117
+Deep Panda;execution
+execution;T1117
+Deep Panda;persistence
+persistence;T1015
+Deep Panda;privilege-escalation
+privilege-escalation;T1015
+Turla;discovery
+discovery;T1057
+Turla;discovery
+discovery;T1007
+Turla;discovery
+discovery;T1016
+Turla;discovery
+discovery;T1049
+Turla;discovery
+discovery;T1018
+Turla;discovery
+discovery;T1082
+Turla;discovery
+discovery;T1012
+Turla;discovery
+discovery;T1083
+Turla;credential-access
+credential-access;T1110
+Turla;lateral-movement
+lateral-movement;T1077
+Turla;discovery
+discovery;T1124
+Turla;defense-evasion
+defense-evasion;T1066
+menuPass;execution
+execution;T1086
+menuPass;credential-access
+credential-access;T1003
+menuPass;execution
+execution;T1047
+menuPass;execution
+execution;T1059
+menuPass;discovery
+discovery;T1018
+menuPass;defense-evasion
+defense-evasion;T1073
+menuPass;discovery
+discovery;T1087
+menuPass;discovery
+discovery;T1016
+menuPass;discovery
+discovery;T1046
+menuPass;exfiltration
+exfiltration;T1002
+menuPass;execution
+execution;T1053
+menuPass;persistence
+persistence;T1053
+menuPass;privilege-escalation
+privilege-escalation;T1053
+menuPass;defense-evasion
+defense-evasion;T1038
+menuPass;persistence
+persistence;T1038
+menuPass;privilege-escalation
+privilege-escalation;T1038
+menuPass;defense-evasion
+defense-evasion;T1078
+menuPass;persistence
+persistence;T1078
+menuPass;privilege-escalation
+privilege-escalation;T1078
+menuPass;command-and-control
+command-and-control;T1105
+menuPass;lateral-movement
+lateral-movement;T1105
+menuPass;lateral-movement
+lateral-movement;T1076
+menuPass;discovery
+discovery;T1049
+menuPass;collection
+collection;T1074
+menuPass;collection
+collection;T1039
+menuPass;lateral-movement
+lateral-movement;T1021
+menuPass;command-and-control
+command-and-control;T1090

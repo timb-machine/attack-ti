@@ -1,0 +1,23 @@
+threat-crank.py 0.2.1
+I: searching for regions that match .* ukrain.*
+I: using https://raw.githubusercontent.com/mitre/cti/ATT&CK-v1.0/enterprise-attack/enterprise-attack.json
+Gamaredon Group;command-and-control
+command-and-control;T1105
+Gamaredon Group;lateral-movement
+lateral-movement;T1105
+Gamaredon Group;defense-evasion
+defense-evasion;T1064
+Gamaredon Group;execution
+execution;T1064
+Gamaredon Group;discovery
+discovery;T1120
+Gamaredon Group;collection
+collection;T1025
+Gamaredon Group;exfiltration
+exfiltration;T1041
+Gamaredon Group;command-and-control
+command-and-control;T1071
+Gamaredon Group;discovery
+discovery;T1082
+Gamaredon Group;discovery
+discovery;T1033

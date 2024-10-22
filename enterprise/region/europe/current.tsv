@@ -1,0 +1,15 @@
+threat-crank.py 0.2.1
+I: searching for regions that match .* europe.*
+I: using https://raw.githubusercontent.com/mitre/cti/ATT&CK-v1.0/enterprise-attack/enterprise-attack.json
+Dust Storm;defense-evasion
+defense-evasion;T1027
+Dust Storm;collection
+collection;T1005
+Dust Storm;discovery
+discovery;T1083
+Molerats;discovery
+discovery;T1057
+Molerats;credential-access
+credential-access;T1003
+Molerats;defense-evasion
+defense-evasion;T1116
