@@ -1,0 +1,687 @@
+threat-crank.py 0.2.1
+I: searching for industries that match .* govern.*
+I: using https://raw.githubusercontent.com/mitre/cti/ATT&CK-v1.0/enterprise-attack/enterprise-attack.json
+APT18;execution
+execution;T1053
+APT18;persistence
+persistence;T1053
+APT18;privilege-escalation
+privilege-escalation;T1053
+APT18;defense-evasion
+defense-evasion;T1107
+APT18;persistence
+persistence;T1133
+APT18;defense-evasion
+defense-evasion;T1078
+APT18;persistence
+persistence;T1078
+APT18;privilege-escalation
+privilege-escalation;T1078
+APT28;command-and-control
+command-and-control;T1001
+APT28;command-and-control
+command-and-control;T1090
+APT28;command-and-control
+command-and-control;T1071
+APT28;command-and-control
+command-and-control;T1105
+APT28;lateral-movement
+lateral-movement;T1105
+APT28;defense-evasion
+defense-evasion;T1085
+APT28;execution
+execution;T1085
+APT28;defense-evasion
+defense-evasion;T1070
+APT28;defense-evasion
+defense-evasion;T1099
+APT28;credential-access
+credential-access;T1003
+APT28;collection
+collection;T1113
+APT28;persistence
+persistence;T1067
+APT28;defense-evasion
+defense-evasion;T1122
+APT28;persistence
+persistence;T1122
+APT28;credential-access
+credential-access;T1068
+APT28;defense-evasion
+defense-evasion;T1068
+APT28;lateral-movement
+lateral-movement;T1068
+APT28;privilege-escalation
+privilege-escalation;T1068
+APT28;defense-evasion
+defense-evasion;T1027
+APT28;collection
+collection;T1056
+APT28;credential-access
+credential-access;T1056
+APT28;lateral-movement
+lateral-movement;T1091
+APT28;credential-access
+credential-access;T1091
+APT28;command-and-control
+command-and-control;T1092
+APT28;lateral-movement
+lateral-movement;T1075
+APT28;collection
+collection;T1074
+APT28;collection
+collection;T1025
+APT28;discovery
+discovery;T1120
+APT28;defense-evasion
+defense-evasion;T1134
+APT28;privilege-escalation
+privilege-escalation;T1134
+APT28;defense-evasion
+defense-evasion;T1078
+APT28;persistence
+persistence;T1078
+APT28;privilege-escalation
+privilege-escalation;T1078
+APT28;persistence
+persistence;T1137
+APT28;discovery
+discovery;T1033
+APT28;discovery
+discovery;T1057
+APT28;discovery
+discovery;T1082
+APT28;defense-evasion
+defense-evasion;T1107
+APT28;credential-access
+credential-access;T1081
+APT28;discovery
+discovery;T1083
+APT28;credential-access
+credential-access;T1040
+APT28;execution
+execution;T1173
+APT29;execution
+execution;T1086
+APT29;defense-evasion
+defense-evasion;T1064
+APT29;execution
+execution;T1064
+APT29;defense-evasion
+defense-evasion;T1070
+APT29;defense-evasion
+defense-evasion;T1045
+APT29;execution
+execution;T1053
+APT29;persistence
+persistence;T1053
+APT29;privilege-escalation
+privilege-escalation;T1053
+APT29;persistence
+persistence;T1060
+APT29;defense-evasion
+defense-evasion;T1088
+APT29;privilege-escalation
+privilege-escalation;T1088
+APT29;persistence
+persistence;T1084
+APT29;execution
+execution;T1047
+APT29;lateral-movement
+lateral-movement;T1075
+APT29;persistence
+persistence;T1015
+APT29;privilege-escalation
+privilege-escalation;T1015
+APT29;command-and-control
+command-and-control;T1172
+APT29;command-and-control
+command-and-control;T1188
+APT32;execution
+execution;T1053
+APT32;persistence
+persistence;T1053
+APT32;privilege-escalation
+privilege-escalation;T1053
+APT32;defense-evasion
+defense-evasion;T1117
+APT32;execution
+execution;T1117
+APT32;execution
+execution;T1086
+APT32;command-and-control
+command-and-control;T1094
+APT32;defense-evasion
+defense-evasion;T1099
+APT32;defense-evasion
+defense-evasion;T1107
+APT32;defense-evasion
+defense-evasion;T1027
+APT32;credential-access
+credential-access;T1068
+APT32;defense-evasion
+defense-evasion;T1068
+APT32;lateral-movement
+lateral-movement;T1068
+APT32;privilege-escalation
+privilege-escalation;T1068
+APT32;lateral-movement
+lateral-movement;T1017
+APT32;defense-evasion
+defense-evasion;T1036
+APT32;defense-evasion
+defense-evasion;T1078
+APT32;persistence
+persistence;T1078
+APT32;privilege-escalation
+privilege-escalation;T1078
+APT32;persistence
+persistence;T1100
+APT32;privilege-escalation
+privilege-escalation;T1100
+APT32;command-and-control
+command-and-control;T1105
+APT32;lateral-movement
+lateral-movement;T1105
+APT32;command-and-control
+command-and-control;T1071
+APT34;command-and-control
+command-and-control;T1105
+APT34;lateral-movement
+lateral-movement;T1105
+APT34;defense-evasion
+defense-evasion;T1064
+APT34;execution
+execution;T1064
+APT34;execution
+execution;T1086
+APT34;defense-evasion
+defense-evasion;T1027
+APT34;defense-evasion
+defense-evasion;T1140
+APT34;defense-evasion
+defense-evasion;T1107
+APT34;persistence
+persistence;T1100
+APT34;privilege-escalation
+privilege-escalation;T1100
+APT34;execution
+execution;T1059
+APT34;credential-access
+credential-access;T1003
+APT34;collection
+collection;T1056
+APT34;credential-access
+credential-access;T1056
+APT34;credential-access
+credential-access;T1110
+APT34;discovery
+discovery;T1046
+APT34;collection
+collection;T1113
+APT34;lateral-movement
+lateral-movement;T1076
+APT34;execution
+execution;T1047
+APT34;defense-evasion
+defense-evasion;T1078
+APT34;persistence
+persistence;T1078
+APT34;privilege-escalation
+privilege-escalation;T1078
+APT34;command-and-control
+command-and-control;T1071
+APT34;command-and-control
+command-and-control;T1032
+APT34;persistence
+persistence;T1133
+Axiom;persistence
+persistence;T1015
+Axiom;privilege-escalation
+privilege-escalation;T1015
+Axiom;credential-access
+credential-access;T1003
+Axiom;command-and-control
+command-and-control;T1001
+Axiom;lateral-movement
+lateral-movement;T1076
+BRONZE BUTLER;command-and-control
+command-and-control;T1032
+BRONZE BUTLER;command-and-control
+command-and-control;T1071
+BRONZE BUTLER;command-and-control
+command-and-control;T1105
+BRONZE BUTLER;lateral-movement
+lateral-movement;T1105
+BRONZE BUTLER;collection
+collection;T1113
+BRONZE BUTLER;command-and-control
+command-and-control;T1024
+BRONZE BUTLER;command-and-control
+command-and-control;T1132
+BRONZE BUTLER;exfiltration
+exfiltration;T1002
+BRONZE BUTLER;defense-evasion
+defense-evasion;T1140
+BRONZE BUTLER;defense-evasion
+defense-evasion;T1009
+BRONZE BUTLER;execution
+execution;T1086
+BRONZE BUTLER;defense-evasion
+defense-evasion;T1064
+BRONZE BUTLER;execution
+execution;T1064
+BRONZE BUTLER;execution
+execution;T1059
+BRONZE BUTLER;credential-access
+credential-access;T1003
+BRONZE BUTLER;defense-evasion
+defense-evasion;T1088
+BRONZE BUTLER;privilege-escalation
+privilege-escalation;T1088
+BRONZE BUTLER;lateral-movement
+lateral-movement;T1097
+BRONZE BUTLER;discovery
+discovery;T1018
+BRONZE BUTLER;discovery
+discovery;T1087
+BRONZE BUTLER;discovery
+discovery;T1124
+BRONZE BUTLER;execution
+execution;T1053
+BRONZE BUTLER;persistence
+persistence;T1053
+BRONZE BUTLER;privilege-escalation
+privilege-escalation;T1053
+BRONZE BUTLER;persistence
+persistence;T1060
+BRONZE BUTLER;defense-evasion
+defense-evasion;T1036
+BRONZE BUTLER;collection
+collection;T1005
+BRONZE BUTLER;collection
+collection;T1039
+BRONZE BUTLER;exfiltration
+exfiltration;T1022
+BRONZE BUTLER;discovery
+discovery;T1083
+BRONZE BUTLER;defense-evasion
+defense-evasion;T1107
+Deep Panda;execution
+execution;T1086
+Deep Panda;execution
+execution;T1047
+Deep Panda;persistence
+persistence;T1100
+Deep Panda;privilege-escalation
+privilege-escalation;T1100
+Deep Panda;lateral-movement
+lateral-movement;T1077
+Deep Panda;discovery
+discovery;T1057
+Deep Panda;defense-evasion
+defense-evasion;T1064
+Deep Panda;execution
+execution;T1064
+Deep Panda;defense-evasion
+defense-evasion;T1066
+Deep Panda;defense-evasion
+defense-evasion;T1117
+Deep Panda;execution
+execution;T1117
+Deep Panda;persistence
+persistence;T1015
+Deep Panda;privilege-escalation
+privilege-escalation;T1015
+Gamaredon Group;command-and-control
+command-and-control;T1105
+Gamaredon Group;lateral-movement
+lateral-movement;T1105
+Gamaredon Group;defense-evasion
+defense-evasion;T1064
+Gamaredon Group;execution
+execution;T1064
+Gamaredon Group;discovery
+discovery;T1120
+Gamaredon Group;collection
+collection;T1025
+Gamaredon Group;exfiltration
+exfiltration;T1041
+Gamaredon Group;command-and-control
+command-and-control;T1071
+Gamaredon Group;discovery
+discovery;T1082
+Gamaredon Group;discovery
+discovery;T1033
+Lazarus Group;defense-evasion
+defense-evasion;T1027
+Lazarus Group;command-and-control
+command-and-control;T1094
+Lazarus Group;command-and-control
+command-and-control;T1032
+Lazarus Group;defense-evasion
+defense-evasion;T1107
+Lazarus Group;discovery
+discovery;T1083
+Lazarus Group;persistence
+persistence;T1050
+Lazarus Group;privilege-escalation
+privilege-escalation;T1050
+Lazarus Group;execution
+execution;T1059
+Lazarus Group;discovery
+discovery;T1082
+Lazarus Group;defense-evasion
+defense-evasion;T1099
+Lazarus Group;credential-access
+credential-access;T1098
+Lazarus Group;command-and-control
+command-and-control;T1024
+Lazarus Group;command-and-control
+command-and-control;T1105
+Lazarus Group;lateral-movement
+lateral-movement;T1105
+Lazarus Group;defense-evasion
+defense-evasion;T1089
+Lazarus Group;discovery
+discovery;T1057
+Lazarus Group;discovery
+discovery;T1010
+Lazarus Group;discovery
+discovery;T1016
+Lazarus Group;discovery
+discovery;T1012
+Lazarus Group;exfiltration
+exfiltration;T1002
+Lazarus Group;exfiltration
+exfiltration;T1022
+Lazarus Group;collection
+collection;T1074
+Lazarus Group;exfiltration
+exfiltration;T1041
+Lazarus Group;collection
+collection;T1005
+Lazarus Group;collection
+collection;T1056
+Lazarus Group;credential-access
+credential-access;T1056
+Lazarus Group;persistence
+persistence;T1060
+Lazarus Group;command-and-control
+command-and-control;T1026
+Lazarus Group;lateral-movement
+lateral-movement;T1077
+Lazarus Group;execution
+execution;T1047
+Lazarus Group;command-and-control
+command-and-control;T1008
+Lazarus Group;discovery
+discovery;T1033
+Lazarus Group;credential-access
+credential-access;T1110
+Lazarus Group;exfiltration
+exfiltration;T1048
+Lazarus Group;lateral-movement
+lateral-movement;T1076
+Lazarus Group;command-and-control
+command-and-control;T1043
+Lazarus Group;command-and-control
+command-and-control;T1065
+Lazarus Group;persistence
+persistence;T1067
+Lazarus Group;defense-evasion
+defense-evasion;T1134
+Lazarus Group;privilege-escalation
+privilege-escalation;T1134
+Lazarus Group;command-and-control
+command-and-control;T1090
+Magic Hound;execution
+execution;T1086
+Magic Hound;command-and-control
+command-and-control;T1071
+Magic Hound;command-and-control
+command-and-control;T1105
+Magic Hound;lateral-movement
+lateral-movement;T1105
+Magic Hound;discovery
+discovery;T1082
+Magic Hound;execution
+execution;T1059
+Magic Hound;defense-evasion
+defense-evasion;T1027
+Magic Hound;persistence
+persistence;T1060
+Magic Hound;discovery
+discovery;T1016
+Magic Hound;command-and-control
+command-and-control;T1043
+Magic Hound;command-and-control
+command-and-control;T1065
+Magic Hound;discovery
+discovery;T1033
+Magic Hound;defense-evasion
+defense-evasion;T1107
+Magic Hound;discovery
+discovery;T1083
+Magic Hound;defense-evasion
+defense-evasion;T1064
+Magic Hound;execution
+execution;T1064
+Magic Hound;collection
+collection;T1056
+Magic Hound;credential-access
+credential-access;T1056
+Magic Hound;discovery
+discovery;T1057
+Magic Hound;collection
+collection;T1113
+Magic Hound;command-and-control
+command-and-control;T1102
+Sowbug;execution
+execution;T1059
+Sowbug;collection
+collection;T1039
+Sowbug;exfiltration
+exfiltration;T1002
+Sowbug;discovery
+discovery;T1083
+Sowbug;discovery
+discovery;T1135
+Sowbug;defense-evasion
+defense-evasion;T1036
+Sowbug;discovery
+discovery;T1082
+Sowbug;credential-access
+credential-access;T1003
+Sowbug;collection
+collection;T1056
+Sowbug;credential-access
+credential-access;T1056
+Stealth Falcon;execution
+execution;T1047
+Stealth Falcon;execution
+execution;T1086
+Stealth Falcon;discovery
+discovery;T1082
+Stealth Falcon;discovery
+discovery;T1033
+Stealth Falcon;discovery
+discovery;T1012
+Stealth Falcon;execution
+execution;T1053
+Stealth Falcon;persistence
+persistence;T1053
+Stealth Falcon;privilege-escalation
+privilege-escalation;T1053
+Stealth Falcon;command-and-control
+command-and-control;T1071
+Stealth Falcon;command-and-control
+command-and-control;T1032
+Stealth Falcon;discovery
+discovery;T1016
+Stealth Falcon;discovery
+discovery;T1057
+Stealth Falcon;credential-access
+credential-access;T1003
+Stealth Falcon;exfiltration
+exfiltration;T1041
+Stealth Falcon;collection
+collection;T1005
+Stealth Falcon;defense-evasion
+defense-evasion;T1064
+Stealth Falcon;execution
+execution;T1064
+Taidoor;command-and-control
+command-and-control;T1032
+Threat Group-3390;collection
+collection;T1056
+Threat Group-3390;credential-access
+credential-access;T1056
+Threat Group-3390;credential-access
+credential-access;T1003
+Threat Group-3390;defense-evasion
+defense-evasion;T1073
+Threat Group-3390;command-and-control
+command-and-control;T1043
+Threat Group-3390;discovery
+discovery;T1046
+Threat Group-3390;execution
+execution;T1053
+Threat Group-3390;persistence
+persistence;T1053
+Threat Group-3390;privilege-escalation
+privilege-escalation;T1053
+Threat Group-3390;exfiltration
+exfiltration;T1002
+Threat Group-3390;exfiltration
+exfiltration;T1022
+Threat Group-3390;exfiltration
+exfiltration;T1030
+Threat Group-3390;collection
+collection;T1074
+Threat Group-3390;collection
+collection;T1005
+Threat Group-3390;command-and-control
+command-and-control;T1105
+Threat Group-3390;lateral-movement
+lateral-movement;T1105
+Threat Group-3390;defense-evasion
+defense-evasion;T1078
+Threat Group-3390;persistence
+persistence;T1078
+Threat Group-3390;privilege-escalation
+privilege-escalation;T1078
+Threat Group-3390;persistence
+persistence;T1133
+Threat Group-3390;discovery
+discovery;T1016
+Threat Group-3390;discovery
+discovery;T1049
+Threat Group-3390;discovery
+discovery;T1087
+Threat Group-3390;execution
+execution;T1028
+Threat Group-3390;lateral-movement
+lateral-movement;T1028
+Threat Group-3390;execution
+execution;T1086
+Threat Group-3390;execution
+execution;T1059
+Threat Group-3390;defense-evasion
+defense-evasion;T1089
+Threat Group-3390;defense-evasion
+defense-evasion;T1107
+Threat Group-3390;credential-access
+credential-access;T1068
+Threat Group-3390;defense-evasion
+defense-evasion;T1068
+Threat Group-3390;lateral-movement
+lateral-movement;T1068
+Threat Group-3390;privilege-escalation
+privilege-escalation;T1068
+Threat Group-3390;collection
+collection;T1119
+Threat Group-3390;defense-evasion
+defense-evasion;T1126
+Threat Group-3390;defense-evasion
+defense-evasion;T1108
+Threat Group-3390;persistence
+persistence;T1108
+Turla;discovery
+discovery;T1057
+Turla;discovery
+discovery;T1007
+Turla;discovery
+discovery;T1016
+Turla;discovery
+discovery;T1049
+Turla;discovery
+discovery;T1018
+Turla;discovery
+discovery;T1082
+Turla;discovery
+discovery;T1012
+Turla;discovery
+discovery;T1083
+Turla;credential-access
+credential-access;T1110
+Turla;lateral-movement
+lateral-movement;T1077
+Turla;discovery
+discovery;T1124
+Turla;defense-evasion
+defense-evasion;T1066
+menuPass;execution
+execution;T1086
+menuPass;credential-access
+credential-access;T1003
+menuPass;execution
+execution;T1047
+menuPass;execution
+execution;T1059
+menuPass;discovery
+discovery;T1018
+menuPass;defense-evasion
+defense-evasion;T1073
+menuPass;discovery
+discovery;T1087
+menuPass;discovery
+discovery;T1016
+menuPass;discovery
+discovery;T1046
+menuPass;exfiltration
+exfiltration;T1002
+menuPass;execution
+execution;T1053
+menuPass;persistence
+persistence;T1053
+menuPass;privilege-escalation
+privilege-escalation;T1053
+menuPass;defense-evasion
+defense-evasion;T1038
+menuPass;persistence
+persistence;T1038
+menuPass;privilege-escalation
+privilege-escalation;T1038
+menuPass;defense-evasion
+defense-evasion;T1078
+menuPass;persistence
+persistence;T1078
+menuPass;privilege-escalation
+privilege-escalation;T1078
+menuPass;command-and-control
+command-and-control;T1105
+menuPass;lateral-movement
+lateral-movement;T1105
+menuPass;lateral-movement
+lateral-movement;T1076
+menuPass;discovery
+discovery;T1049
+menuPass;collection
+collection;T1074
+menuPass;collection
+collection;T1039
+menuPass;lateral-movement
+lateral-movement;T1021
+menuPass;command-and-control
+command-and-control;T1090

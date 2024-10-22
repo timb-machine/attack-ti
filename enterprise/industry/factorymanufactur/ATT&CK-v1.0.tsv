@@ -1,0 +1,209 @@
+threat-crank.py 0.2.1
+I: searching for industries that match .* factory.*|.* manufactur.*
+I: using https://raw.githubusercontent.com/mitre/cti/ATT&CK-v1.0/enterprise-attack/enterprise-attack.json
+APT18;execution
+execution;T1053
+APT18;persistence
+persistence;T1053
+APT18;privilege-escalation
+privilege-escalation;T1053
+APT18;defense-evasion
+defense-evasion;T1107
+APT18;persistence
+persistence;T1133
+APT18;defense-evasion
+defense-evasion;T1078
+APT18;persistence
+persistence;T1078
+APT18;privilege-escalation
+privilege-escalation;T1078
+BRONZE BUTLER;command-and-control
+command-and-control;T1032
+BRONZE BUTLER;command-and-control
+command-and-control;T1071
+BRONZE BUTLER;command-and-control
+command-and-control;T1105
+BRONZE BUTLER;lateral-movement
+lateral-movement;T1105
+BRONZE BUTLER;collection
+collection;T1113
+BRONZE BUTLER;command-and-control
+command-and-control;T1024
+BRONZE BUTLER;command-and-control
+command-and-control;T1132
+BRONZE BUTLER;exfiltration
+exfiltration;T1002
+BRONZE BUTLER;defense-evasion
+defense-evasion;T1140
+BRONZE BUTLER;defense-evasion
+defense-evasion;T1009
+BRONZE BUTLER;execution
+execution;T1086
+BRONZE BUTLER;defense-evasion
+defense-evasion;T1064
+BRONZE BUTLER;execution
+execution;T1064
+BRONZE BUTLER;execution
+execution;T1059
+BRONZE BUTLER;credential-access
+credential-access;T1003
+BRONZE BUTLER;defense-evasion
+defense-evasion;T1088
+BRONZE BUTLER;privilege-escalation
+privilege-escalation;T1088
+BRONZE BUTLER;lateral-movement
+lateral-movement;T1097
+BRONZE BUTLER;discovery
+discovery;T1018
+BRONZE BUTLER;discovery
+discovery;T1087
+BRONZE BUTLER;discovery
+discovery;T1124
+BRONZE BUTLER;execution
+execution;T1053
+BRONZE BUTLER;persistence
+persistence;T1053
+BRONZE BUTLER;privilege-escalation
+privilege-escalation;T1053
+BRONZE BUTLER;persistence
+persistence;T1060
+BRONZE BUTLER;defense-evasion
+defense-evasion;T1036
+BRONZE BUTLER;collection
+collection;T1005
+BRONZE BUTLER;collection
+collection;T1039
+BRONZE BUTLER;exfiltration
+exfiltration;T1022
+BRONZE BUTLER;discovery
+discovery;T1083
+BRONZE BUTLER;defense-evasion
+defense-evasion;T1107
+Threat Group-3390;collection
+collection;T1056
+Threat Group-3390;credential-access
+credential-access;T1056
+Threat Group-3390;credential-access
+credential-access;T1003
+Threat Group-3390;defense-evasion
+defense-evasion;T1073
+Threat Group-3390;command-and-control
+command-and-control;T1043
+Threat Group-3390;discovery
+discovery;T1046
+Threat Group-3390;execution
+execution;T1053
+Threat Group-3390;persistence
+persistence;T1053
+Threat Group-3390;privilege-escalation
+privilege-escalation;T1053
+Threat Group-3390;exfiltration
+exfiltration;T1002
+Threat Group-3390;exfiltration
+exfiltration;T1022
+Threat Group-3390;exfiltration
+exfiltration;T1030
+Threat Group-3390;collection
+collection;T1074
+Threat Group-3390;collection
+collection;T1005
+Threat Group-3390;command-and-control
+command-and-control;T1105
+Threat Group-3390;lateral-movement
+lateral-movement;T1105
+Threat Group-3390;defense-evasion
+defense-evasion;T1078
+Threat Group-3390;persistence
+persistence;T1078
+Threat Group-3390;privilege-escalation
+privilege-escalation;T1078
+Threat Group-3390;persistence
+persistence;T1133
+Threat Group-3390;discovery
+discovery;T1016
+Threat Group-3390;discovery
+discovery;T1049
+Threat Group-3390;discovery
+discovery;T1087
+Threat Group-3390;execution
+execution;T1028
+Threat Group-3390;lateral-movement
+lateral-movement;T1028
+Threat Group-3390;execution
+execution;T1086
+Threat Group-3390;execution
+execution;T1059
+Threat Group-3390;defense-evasion
+defense-evasion;T1089
+Threat Group-3390;defense-evasion
+defense-evasion;T1107
+Threat Group-3390;credential-access
+credential-access;T1068
+Threat Group-3390;defense-evasion
+defense-evasion;T1068
+Threat Group-3390;lateral-movement
+lateral-movement;T1068
+Threat Group-3390;privilege-escalation
+privilege-escalation;T1068
+Threat Group-3390;collection
+collection;T1119
+Threat Group-3390;defense-evasion
+defense-evasion;T1126
+Threat Group-3390;defense-evasion
+defense-evasion;T1108
+Threat Group-3390;persistence
+persistence;T1108
+menuPass;execution
+execution;T1086
+menuPass;credential-access
+credential-access;T1003
+menuPass;execution
+execution;T1047
+menuPass;execution
+execution;T1059
+menuPass;discovery
+discovery;T1018
+menuPass;defense-evasion
+defense-evasion;T1073
+menuPass;discovery
+discovery;T1087
+menuPass;discovery
+discovery;T1016
+menuPass;discovery
+discovery;T1046
+menuPass;exfiltration
+exfiltration;T1002
+menuPass;execution
+execution;T1053
+menuPass;persistence
+persistence;T1053
+menuPass;privilege-escalation
+privilege-escalation;T1053
+menuPass;defense-evasion
+defense-evasion;T1038
+menuPass;persistence
+persistence;T1038
+menuPass;privilege-escalation
+privilege-escalation;T1038
+menuPass;defense-evasion
+defense-evasion;T1078
+menuPass;persistence
+persistence;T1078
+menuPass;privilege-escalation
+privilege-escalation;T1078
+menuPass;command-and-control
+command-and-control;T1105
+menuPass;lateral-movement
+lateral-movement;T1105
+menuPass;lateral-movement
+lateral-movement;T1076
+menuPass;discovery
+discovery;T1049
+menuPass;collection
+collection;T1074
+menuPass;collection
+collection;T1039
+menuPass;lateral-movement
+lateral-movement;T1021
+menuPass;command-and-control
+command-and-control;T1090

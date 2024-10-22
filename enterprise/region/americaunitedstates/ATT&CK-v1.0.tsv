@@ -1,0 +1,65 @@
+threat-crank.py 0.2.1
+I: searching for regions that match .* america.*|.* united states.*
+I: using https://raw.githubusercontent.com/mitre/cti/ATT&CK-v1.0/enterprise-attack/enterprise-attack.json
+Dust Storm;defense-evasion
+defense-evasion;T1027
+Dust Storm;collection
+collection;T1005
+Dust Storm;discovery
+discovery;T1083
+FIN10;execution
+execution;T1086
+FIN10;execution
+execution;T1053
+FIN10;persistence
+persistence;T1053
+FIN10;privilege-escalation
+privilege-escalation;T1053
+FIN10;persistence
+persistence;T1060
+FIN10;defense-evasion
+defense-evasion;T1064
+FIN10;execution
+execution;T1064
+FIN10;lateral-movement
+lateral-movement;T1076
+FIN10;defense-evasion
+defense-evasion;T1078
+FIN10;persistence
+persistence;T1078
+FIN10;privilege-escalation
+privilege-escalation;T1078
+FIN10;discovery
+discovery;T1033
+FIN10;command-and-control
+command-and-control;T1105
+FIN10;lateral-movement
+lateral-movement;T1105
+FIN10;defense-evasion
+defense-evasion;T1107
+Molerats;discovery
+discovery;T1057
+Molerats;credential-access
+credential-access;T1003
+Molerats;defense-evasion
+defense-evasion;T1116
+Sowbug;execution
+execution;T1059
+Sowbug;collection
+collection;T1039
+Sowbug;exfiltration
+exfiltration;T1002
+Sowbug;discovery
+discovery;T1083
+Sowbug;discovery
+discovery;T1135
+Sowbug;defense-evasion
+defense-evasion;T1036
+Sowbug;discovery
+discovery;T1082
+Sowbug;credential-access
+credential-access;T1003
+Sowbug;collection
+collection;T1056
+Sowbug;credential-access
+credential-access;T1056

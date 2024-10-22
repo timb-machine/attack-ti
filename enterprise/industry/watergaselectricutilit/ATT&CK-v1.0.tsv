@@ -1,0 +1,41 @@
+threat-crank.py 0.2.1
+I: searching for industries that match .* water.*|.* gas.*|.* electric.*|.* utilit.*
+I: using https://raw.githubusercontent.com/mitre/cti/ATT&CK-v1.0/enterprise-attack/enterprise-attack.json
+Group5;defense-evasion
+defense-evasion;T1027
+Group5;defense-evasion
+defense-evasion;T1045
+Group5;collection
+collection;T1056
+Group5;credential-access
+credential-access;T1056
+Group5;collection
+collection;T1113
+Group5;defense-evasion
+defense-evasion;T1107
+Group5;command-and-control
+command-and-control;T1065
+Turla;discovery
+discovery;T1057
+Turla;discovery
+discovery;T1007
+Turla;discovery
+discovery;T1016
+Turla;discovery
+discovery;T1049
+Turla;discovery
+discovery;T1018
+Turla;discovery
+discovery;T1082
+Turla;discovery
+discovery;T1012
+Turla;discovery
+discovery;T1083
+Turla;credential-access
+credential-access;T1110
+Turla;lateral-movement
+lateral-movement;T1077
+Turla;discovery
+discovery;T1124
+Turla;defense-evasion
+defense-evasion;T1066
