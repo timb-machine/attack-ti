@@ -1,0 +1,281 @@
+threat-crank.py 0.2.1
+I: searching for industries that match .* energy.*|.* gas.*|.* petrol.*|.* oil.*
+I: using https://raw.githubusercontent.com/mitre/cti/ATT&CK-v1.0/enterprise-attack/enterprise-attack.json
+APT34;command-and-control
+command-and-control;T1105
+APT34;lateral-movement
+lateral-movement;T1105
+APT34;defense-evasion
+defense-evasion;T1064
+APT34;execution
+execution;T1064
+APT34;execution
+execution;T1086
+APT34;defense-evasion
+defense-evasion;T1027
+APT34;defense-evasion
+defense-evasion;T1140
+APT34;defense-evasion
+defense-evasion;T1107
+APT34;persistence
+persistence;T1100
+APT34;privilege-escalation
+privilege-escalation;T1100
+APT34;execution
+execution;T1059
+APT34;credential-access
+credential-access;T1003
+APT34;collection
+collection;T1056
+APT34;credential-access
+credential-access;T1056
+APT34;credential-access
+credential-access;T1110
+APT34;discovery
+discovery;T1046
+APT34;collection
+collection;T1113
+APT34;lateral-movement
+lateral-movement;T1076
+APT34;execution
+execution;T1047
+APT34;defense-evasion
+defense-evasion;T1078
+APT34;persistence
+persistence;T1078
+APT34;privilege-escalation
+privilege-escalation;T1078
+APT34;command-and-control
+command-and-control;T1071
+APT34;command-and-control
+command-and-control;T1032
+APT34;persistence
+persistence;T1133
+Dragonfly;collection
+collection;T1113
+Dragonfly;execution
+execution;T1086
+Dragonfly;command-and-control
+command-and-control;T1105
+Dragonfly;lateral-movement
+lateral-movement;T1105
+Dragonfly;defense-evasion
+defense-evasion;T1107
+Dragonfly;persistence
+persistence;T1136
+Dragonfly;defense-evasion
+defense-evasion;T1089
+Dragonfly;persistence
+persistence;T1133
+Dragonfly;credential-access
+credential-access;T1110
+Dragonfly;credential-access
+credential-access;T1003
+Dragonfly;defense-evasion
+defense-evasion;T1064
+Dragonfly;execution
+execution;T1064
+Dragonfly;defense-evasion
+defense-evasion;T1036
+Dragonfly;defense-evasion
+defense-evasion;T1070
+Dragonfly;persistence
+persistence;T1100
+Dragonfly;privilege-escalation
+privilege-escalation;T1100
+Dragonfly;command-and-control
+command-and-control;T1043
+Dragonfly;collection
+collection;T1114
+Dragonfly;lateral-movement
+lateral-movement;T1076
+Dragonfly;discovery
+discovery;T1135
+Dragonfly;execution
+execution;T1053
+Dragonfly;persistence
+persistence;T1053
+Dragonfly;privilege-escalation
+privilege-escalation;T1053
+Dragonfly;credential-access
+credential-access;T1187
+Magic Hound;execution
+execution;T1086
+Magic Hound;command-and-control
+command-and-control;T1071
+Magic Hound;command-and-control
+command-and-control;T1105
+Magic Hound;lateral-movement
+lateral-movement;T1105
+Magic Hound;discovery
+discovery;T1082
+Magic Hound;execution
+execution;T1059
+Magic Hound;defense-evasion
+defense-evasion;T1027
+Magic Hound;persistence
+persistence;T1060
+Magic Hound;discovery
+discovery;T1016
+Magic Hound;command-and-control
+command-and-control;T1043
+Magic Hound;command-and-control
+command-and-control;T1065
+Magic Hound;discovery
+discovery;T1033
+Magic Hound;defense-evasion
+defense-evasion;T1107
+Magic Hound;discovery
+discovery;T1083
+Magic Hound;defense-evasion
+defense-evasion;T1064
+Magic Hound;execution
+execution;T1064
+Magic Hound;collection
+collection;T1056
+Magic Hound;credential-access
+credential-access;T1056
+Magic Hound;discovery
+discovery;T1057
+Magic Hound;collection
+collection;T1113
+Magic Hound;command-and-control
+command-and-control;T1102
+OilRig;defense-evasion
+defense-evasion;T1066
+OilRig;discovery
+discovery;T1057
+OilRig;discovery
+discovery;T1033
+OilRig;discovery
+discovery;T1082
+OilRig;discovery
+discovery;T1016
+OilRig;discovery
+discovery;T1087
+OilRig;discovery
+discovery;T1069
+OilRig;discovery
+discovery;T1049
+OilRig;discovery
+discovery;T1012
+OilRig;discovery
+discovery;T1007
+OilRig;exfiltration
+exfiltration;T1048
+OilRig;command-and-control
+command-and-control;T1094
+OilRig;command-and-control
+command-and-control;T1071
+OilRig;command-and-control
+command-and-control;T1008
+OilRig;execution
+execution;T1059
+OilRig;defense-evasion
+defense-evasion;T1108
+OilRig;persistence
+persistence;T1108
+OilRig;persistence
+persistence;T1100
+OilRig;privilege-escalation
+privilege-escalation;T1100
+OilRig;defense-evasion
+defense-evasion;T1107
+OilRig;defense-evasion
+defense-evasion;T1078
+OilRig;persistence
+persistence;T1078
+OilRig;privilege-escalation
+privilege-escalation;T1078
+OilRig;defense-evasion
+defense-evasion;T1027
+OilRig;collection
+collection;T1119
+OilRig;credential-access
+credential-access;T1003
+OilRig;lateral-movement
+lateral-movement;T1076
+OilRig;lateral-movement
+lateral-movement;T1021
+OilRig;execution
+execution;T1086
+OilRig;defense-evasion
+defense-evasion;T1140
+OilRig;defense-evasion
+defense-evasion;T1064
+OilRig;execution
+execution;T1064
+Threat Group-3390;collection
+collection;T1056
+Threat Group-3390;credential-access
+credential-access;T1056
+Threat Group-3390;credential-access
+credential-access;T1003
+Threat Group-3390;defense-evasion
+defense-evasion;T1073
+Threat Group-3390;command-and-control
+command-and-control;T1043
+Threat Group-3390;discovery
+discovery;T1046
+Threat Group-3390;execution
+execution;T1053
+Threat Group-3390;persistence
+persistence;T1053
+Threat Group-3390;privilege-escalation
+privilege-escalation;T1053
+Threat Group-3390;exfiltration
+exfiltration;T1002
+Threat Group-3390;exfiltration
+exfiltration;T1022
+Threat Group-3390;exfiltration
+exfiltration;T1030
+Threat Group-3390;collection
+collection;T1074
+Threat Group-3390;collection
+collection;T1005
+Threat Group-3390;command-and-control
+command-and-control;T1105
+Threat Group-3390;lateral-movement
+lateral-movement;T1105
+Threat Group-3390;defense-evasion
+defense-evasion;T1078
+Threat Group-3390;persistence
+persistence;T1078
+Threat Group-3390;privilege-escalation
+privilege-escalation;T1078
+Threat Group-3390;persistence
+persistence;T1133
+Threat Group-3390;discovery
+discovery;T1016
+Threat Group-3390;discovery
+discovery;T1049
+Threat Group-3390;discovery
+discovery;T1087
+Threat Group-3390;execution
+execution;T1028
+Threat Group-3390;lateral-movement
+lateral-movement;T1028
+Threat Group-3390;execution
+execution;T1086
+Threat Group-3390;execution
+execution;T1059
+Threat Group-3390;defense-evasion
+defense-evasion;T1089
+Threat Group-3390;defense-evasion
+defense-evasion;T1107
+Threat Group-3390;credential-access
+credential-access;T1068
+Threat Group-3390;defense-evasion
+defense-evasion;T1068
+Threat Group-3390;lateral-movement
+lateral-movement;T1068
+Threat Group-3390;privilege-escalation
+privilege-escalation;T1068
+Threat Group-3390;collection
+collection;T1119
+Threat Group-3390;defense-evasion
+defense-evasion;T1126
+Threat Group-3390;defense-evasion
+defense-evasion;T1108
+Threat Group-3390;persistence
+persistence;T1108
