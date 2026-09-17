@@ -26,7 +26,7 @@ do
 		cp "${matrixname}/industry/${industryreportname}/${TAG}.tsv" "${matrixname}/industry/${industryreportname}/current.tsv"
 		[ -z "${DEBUG}" ] && git add "${matrixname}/industry/${industryreportname}/*.md" "${matrixname}/industry/${industryreportname}/*.tsv"
 	done
-	for regionname in ".* norw.*|.* swed.*|.* finland.*|.* denmark.*|.* scandinav.*" ".* britain.*|.* united kingdom.*|.* england.*|.* scotland.*|.* ireland.*|.* wales.*" ".* saud.*|.* ksa.*" ".* qatar.*" ".* iran.*" ".* iraq.*" ".* china.*|.* chinese.*" ".* israel.*" ".* russia.*" ".* ukrain.*" ".* franc.*" ".* german.*" ".* europe.*" ".* america.*|.* united states.*" ".* canada.*" ".* india.*" ".* brazil.*" ".* australia.*" ".* zealand.*" ".* singapore.*" ".* pakistan.*" ".* poland.*|.* polska.*|.* polish.*"
+	for regionname in ".* norw.*|.* swed.*|.* finland.*|.* denmark.*|.* scandinav.*" ".* britain.*|.* united kingdom.*|.* england.*|.* scotland.*|.* ireland.*|.* wales.*" ".* saud.*|.* ksa.*" ".* qatar.*" ".* iran.*" ".* iraq.*" ".* china.*|.* chinese.*" ".* israel.*" ".* russia.*" ".* ukrain.*" ".* franc.*" ".* german.*" ".* europe.*" ".* america.*|.* united states.*" ".* canada.*" ".* india.*" ".* brazil.*" ".* australia.*" ".* zealand.*" ".* singapore.*" ".* pakistan.*" ".* poland.*|.* polska.*|.* polish.*" ".* afric.*"
 	do
 		regionreportname="$(printf "${regionname}" | tr -d ".*| \[\]")"
 		if [ ! -d "${matrixname}/region/${regionreportname}" ]
